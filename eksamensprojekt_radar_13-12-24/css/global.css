@@ -1,0 +1,49 @@
+/*Color Variables*/
+
+:root{
+    --textWhite: #ffff;
+    --backgroundGrey: #343434;
+    --sortish: #090a0f;
+    --merchbox: #BBB7B7;
+    --footer: #D9D9D9;
+    --radargul: #f8fa10;
+    --kulsort: #000;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: "title_rockstar";
+    src: url(/fonts/Rockstar-ExtraBold.otf);
+}
+
+h1{
+    font-family: "title_rockstar";
+    color: var(--textWhite);
+}
+
+h2{
+    background-color: var(--textWhite);
+    width: 15%;
+    height: auto;
+}
+
+h3,h4{
+    color: var(--textWhite);
+}
+p{
+    color: var(--textWhite);
+}
+/*Background*/
+body{
+    width: 100vw;
+    background-color: var(--backgroundGrey);
+    margin: 0;
+}
+
+/*Links*/
+a{
+    text-decoration: none;
+    color: var(--sortish);
+}
+
+

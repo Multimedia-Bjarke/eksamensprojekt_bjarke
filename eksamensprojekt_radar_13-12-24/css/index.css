@@ -1,0 +1,43 @@
+.hero{
+    width: 100vw;
+    height: auto;
+}
+#hero_img{
+    width: 100vw;
+    height: auto;
+}
+
+/*Seciton 1 - Det sker*/
+    /*Section "detSker"*/
+    .detSker{
+        display: block;
+    }
+    .artist_container{
+        /*brug grid i stedet! Regn det ud!*/
+        display: flex;
+        width: 50vw;
+        height: auto;
+        row-gap: 5rem;
+        column-gap: 5rem;
+        grid-template-columns: repeat(4), 230px;
+        padding-left: 12vw;
+        justify-content: center;
+    }
+
+    /*Artist boxes*/
+    .artistbox{
+        width: 336px;
+        height: auto;
+        background-color: aquamarine;
+    }
+    .artist_img{
+        width: 336px;
+        height: auto;
+    }
+    
+    padding: 2rem 0;
+    
+    
+    
+    
+    overflow-x: hidden;
